@@ -1,19 +1,19 @@
-import Card from './components/Card/Card';
+import ContainerCard from './components/ContainerCard/ContainerCard';
 
 function ContainerApp() {
   return (
     <div className='App  p-10 flex flex-col gap-5 justify-center'>
       <div className='@container/main'>
-        <Card />
+        <ContainerCard />
       </div>
       <div className='gap-5 max-w-[100vw] flex flex-col'>
         <div className='flex @container/grid flex-col md:flex-row gap-5'>
-          <Card />
-          <Card />
+          <ContainerCard />
+          <ContainerCard />
         </div>
         <div className='flex @container/grid flex-col md:flex-row gap-5'>
-          <Card />
-          <Card />
+          <ContainerCard />
+          <ContainerCard />
         </div>
       </div>
     </div>
